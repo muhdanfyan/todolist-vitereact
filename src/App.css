@@ -102,7 +102,7 @@ html {
 .wrapper > ul > li > .center.strike {
   text-decoration-line: line-through;
   text-decoration-thickness: 3px;
-  text-decoration-color: #00d26a;
+  text-decoration-color: cyan;
 }
 .wrapper > ul > li > .right {
   display: flex;

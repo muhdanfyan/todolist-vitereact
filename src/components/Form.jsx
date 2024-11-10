@@ -2,7 +2,7 @@ function Form(props) {
   return (
     <div className="wrapper">
     <header>
-        <h3>🔰 TODOLIST </h3>
+        <h3>🔰 TODOLIST </h3><span>{props.taskCompleted || '0'} / {props.tasks.length}</span>
     </header>
 
     <form className="input-box">
